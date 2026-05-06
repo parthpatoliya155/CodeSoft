@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StudyFlow AI - The AI-powered study assistant. Ace your exams with AI-generated notes, flashcards, and personalized study plans.">
+    <title>StudyFlow AI | Study Smarter. Not Harder.</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Navbar (Sticky) -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon"></div>
+                StudyFlow AI
+            </a>
+            
+            <div class="nav-links" id="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How it Works</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#testimonials">Testimonials</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="#" class="btn btn-outline">Login</a>
+                <a href="#" class="btn btn-gradient">Start Free</a>
+            </div>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 2. Hero Section -->
+    <header class="hero fade-in-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="trust-badge">
+                    <span class="dot"></span> Trusted by 50,000+ students
+                </div>
+                <h1><span class="gradient-text">Study Smarter.</span><br>Not Harder.</h1>
+                <p>Unlock your full academic potential with our AI-powered study assistant. Instantly generate flashcards, summarize notes, and create personalized learning paths.</p>
+                <div class="hero-cta">
+                    <a href="#" class="btn btn-gradient btn-large">Start Free</a>
+                    <a href="#" class="btn btn-glass btn-large">Try AI Demo</a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <!-- Floating UI Elements -->
+                <div class="floating-card ai-notes float-anim-1">
+                    <div class="card-header">
+                        <div class="skeleton-avatar"></div>
+                        <div class="skeleton-text-group">
+                            <div class="skeleton-line short"></div>
+                            <div class="skeleton-line long"></div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        Generating AI Summary...
+                        <div class="progress-bar-container"><div class="progress-bar animated"></div></div>
+                    </div>
+                </div>
+
+                <div class="floating-card flashcards float-anim-2">
+                    <div class="flashcard-stack">
+                        <div class="flashcard front">
+                            <span>Q: What is Neuroplasticity?</span>
+                        </div>
+                        <div class="flashcard middle"></div>
+                        <div class="flashcard back"></div>
+                    </div>
+                </div>
+
+                <div class="floating-card circular-progress float-anim-3">
+                    <div class="circle">
+                        <span class="percent">85%</span>
+                    </div>
+                    <span>Study Goal</span>
+                </div>
+                
+                <!-- Background glow effect -->
+                <div class="hero-glow"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. Problem + Solution -->
+    <section class="problem-solution fade-in-section" id="problem-solution">
+        <div class="container split-layout">
+            <div class="problem-side">
+                <h2>Still struggling with endless notes?</h2>
+                <ul class="problem-list">
+                    <li>
+                        <div class="icon-circle red">✕</div>
+                        <p>Wasting hours re-reading textbooks</p>
+                    </li>
+                    <li>
+                        <div class="icon-circle red">✕</div>
+                        <p>Forgetting concepts before exams</p>
+                    </li>
+                    <li>
+                        <div class="icon-circle red">✕</div>
+                        <p>Overwhelmed by scattered study materials</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="solution-side">
+                <div class="glass-card solution-card">
+                    <div class="solution-glow"></div>
+                    <h3>The StudyFlow AI Advantage</h3>
+                    <p>Our AI analyzes your materials and extracts exactly what you need to know, utilizing active recall and spaced repetition to guarantee retention.</p>
+                    <ul class="solution-list">
+                        <li>
+                            <div class="icon-circle green">✓</div>
+                            <span>Instant Chapter Summaries</span>
+                        </li>
+                        <li>
+                            <div class="icon-circle green">✓</div>
+                            <span>Smart Flashcard Generation</span>
+                        </li>
+                        <li>
+                            <div class="icon-circle green">✓</div>
+                            <span>Personalized Quiz Creation</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Features (Grid) -->
+    <section class="features fade-in-section" id="features">
+        <div class="container">
+            <div class="section-header center">
+                <h2>Supercharge your learning</h2>
+                <p>Everything you need to master your subjects faster.</p>
+            </div>
+            
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>Smart Notes</h3>
+                    <p>Upload any PDF or paste text. Our AI instantly formats it into perfectly structured study notes.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📇</div>
+                    <h3>Auto-Flashcards</h3>
+                    <p>Convert your notes into interactive flashcards with a single click. Ready for spaced repetition.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>Concept Mapping</h3>
+                    <p>Visualize complex topics with automatically generated mind maps and relationship graphs.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⏱️</div>
+                    <h3>Pomodoro Timer</h3>
+                    <p>Built-in focus timer that syncs with your study sessions and tracks your daily productivity.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Progress Analytics</h3>
+                    <p>Identify your weak points with detailed analytics and mastery predictions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎙️</div>
+                    <h3>Audio Summaries</h3>
+                    <p>Listen to your study materials on the go with natural-sounding AI voice generation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. How It Works -->
+    <section class="how-it-works fade-in-section" id="how-it-works">
+        <div class="container">
+            <div class="section-header center">
+                <h2>How StudyFlow Works</h2>
+                <p>From raw material to exam mastery in three simple steps.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content glass-card">
+                        <div class="step-icon">📤</div>
+                        <h3>Upload Material</h3>
+                        <p>Import your lectures, PDFs, or paste text directly into your workspace.</p>
+                    </div>
+                </div>
+                <div class="timeline-line"></div>
+                <div class="timeline-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content glass-card">
+                        <div class="step-icon">🤖</div>
+                        <h3>AI Processing</h3>
+                        <p>StudyFlow extracts key concepts, generates quizzes, and builds flashcards.</p>
+                    </div>
+                </div>
+                <div class="timeline-line"></div>
+                <div class="timeline-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content glass-card">
+                        <div class="step-icon">🎓</div>
+                        <h3>Master Topics</h3>
+                        <p>Use active recall and our smart algorithms to ace your upcoming exams.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Testimonials -->
+    <section class="testimonials fade-in-section" id="testimonials">
+        <div class="container">
+            <div class="section-header center">
+                <h2>Loved by top students</h2>
+                <p>Join thousands of learners achieving their academic goals.</p>
+            </div>
+
+            <div class="testimonial-grid">
+                <div class="glass-card testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"StudyFlow completely changed how I prep for finals. The auto-generated flashcards saved me dozens of hours."</p>
+                    <div class="user-info">
+                        <div class="avatar bg-1">S</div>
+                        <div>
+                            <h4>Vasu Balar</h4>
+                            <span>Medical Student, Johns Hopkins</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass-card testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"The concept mapping feature helps me understand complex algorithms perfectly. Easily the best tool I've used."</p>
+                    <div class="user-info">
+                        <div class="avatar bg-2">M</div>
+                        <div>
+                            <h4>Parth Patoliya</h4>
+                            <span>CS Major, Stanford</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass-card testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"I was struggling to keep up with reading assignments. The AI summaries give me exactly what I need to know."</p>
+                    <div class="user-info">
+                        <div class="avatar bg-3">E</div>
+                        <div>
+                            <h4>Tirth Balar</h4>
+                            <span>Law Student, NYU</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Pricing -->
+    <section class="pricing fade-in-section" id="pricing">
+        <div class="container">
+            <div class="section-header center">
+                <h2>Simple, transparent pricing</h2>
+                <div class="billing-toggle">
+                    <span class="active" id="monthly-label">Monthly</span>
+                    <label class="switch">
+                        <input type="checkbox" id="billing-switch">
+                        <span class="slider round"></span>
+                    </label>
+                    <span id="yearly-label">Yearly <span class="badge">Save 20%</span></span>
+                </div>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Free Plan -->
+                <div class="glass-card pricing-card">
+                    <h3>Basic</h3>
+                    <div class="price"><span class="currency">$</span>0<span class="period">/mo</span></div>
+                    <p>Perfect for trying out StudyFlow.</p>
+                    <ul class="pricing-features">
+                        <li>✓ 5 AI summaries per month</li>
+                        <li>✓ 50 Flashcards</li>
+                        <li>✓ Basic text notes</li>
+                        <li class="disabled">✕ Advanced Analytics</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline full-width">Get Started</a>
+                </div>
+
+                <!-- Pro Plan (Highlighted) -->
+                <div class="glass-card pricing-card pro-card">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Pro</h3>
+                    <div class="price"><span class="currency">$</span><span class="amount" data-monthly="12" data-yearly="9">12</span><span class="period">/mo</span></div>
+                    <p>Everything you need to ace your exams.</p>
+                    <ul class="pricing-features">
+                        <li>✓ Unlimited AI summaries</li>
+                        <li>✓ Unlimited Flashcards</li>
+                        <li>✓ Audio summaries</li>
+                        <li>✓ Advanced Analytics</li>
+                    </ul>
+                    <a href="#" class="btn btn-gradient full-width">Start 7-Day Free Trial</a>
+                </div>
+
+                <!-- Team Plan -->
+                <div class="glass-card pricing-card">
+                    <h3>Study Group</h3>
+                    <div class="price"><span class="currency">$</span><span class="amount" data-monthly="29" data-yearly="24">29</span><span class="period">/mo</span></div>
+                    <p>For collaborative learning.</p>
+                    <ul class="pricing-features">
+                        <li>✓ Everything in Pro</li>
+                        <li>✓ Up to 5 users</li>
+                        <li>✓ Shared workspaces</li>
+                        <li>✓ Collaborative editing</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline full-width">Choose Team</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. FAQ -->
+    <section class="faq fade-in-section" id="faq">
+        <div class="container">
+            <div class="section-header center">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        How accurate are the AI summaries?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Our AI is trained specifically on academic and professional texts, providing highly accurate extraction of key concepts, definitions, and formulas while ignoring fluff.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Can I export my flashcards to Anki?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Yes! Pro users can export their generated flashcard decks directly to Anki, Quizlet, or standard CSV formats.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        What file formats do you support?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Currently, we support PDF, DOCX, TXT, and direct copy-pasting of text or website URLs.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Is there a student discount?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>We offer a 50% discount for users who sign up with a valid .edu email address. Contact support after signing up to apply the discount.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Final CTA -->
+    <section class="final-cta fade-in-section">
+        <div class="cta-background">
+            <div class="container center">
+                <h2>Your most productive year starts today</h2>
+                <p>Join thousands of students who have upgraded their learning with StudyFlow AI.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-gradient btn-large">Start for free</a>
+                    <a href="#" class="btn btn-glass btn-large">View pricing</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <div class="logo-icon"></div>
+                        StudyFlow AI
+                    </a>
+                    <p>The intelligent workspace for modern students. Study smarter, retain more, and ace your exams.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Integrations</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Changelog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 StudyFlow AI. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter">𝕏</a>
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="GitHub">GH</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
