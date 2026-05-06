@@ -8,7 +8,7 @@
 
 ## 🌐 Live Demo :- https://dailycalcy.netlify.app/
 
-###🛠️ Tech Stack
+#🛠️ Tech Stack
 
 * HTML5,CSS3,JavaScript
 
