@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parth Patoliya | Portfolio</title>
+    <meta name="description" content="Personal portfolio of a Web Developer, Designer, and Programmer.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">Parth Patoliya</span>
+                <span class="tagline">Full Stack Developer | Designer</span>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hello there, welcome to my world</p>
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Parth Patoliya</span></h1>
+                <h2 class="hero-subtitle">Full Stack Developer & Designer</h2>
+                <p class="hero-desc">I build beautiful, responsive, and dynamic web applications. Turning complex
+                    problems into elegant, intuitive designs.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Hire Me</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+    <img src="image2.jpeg" alt="AI Study Illustration" class="hero-image">
+</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="image3.jpg"
+                        alt="Profile Image">
+                    <div class="about-image-backdrop"></div>
+                </div>
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p>I am a passionate and dedicated Web Developer with a strong foundation in modern web
+                        technologies. I specialize in crafting seamless user experiences from concept to deployment.</p>
+                    <p>My journey in programming started with a fascination for how things work on the internet. Since
+                        then, I've committed myself to continuous learning and improving my craft, whether it's
+                        designing a pixel-perfect UI or architecting robust backend logic.</p>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-num">5+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">100%</span>
+                            <span class="stat-label">Client Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <p class="section-subtitle">Technologies I work with to bring ideas to life.</p>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5 skill-icon" style="color: #E34F26;"></i>
+                    <h3>HTML</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-css3-alt skill-icon" style="color: #1572B6;"></i>
+                    <h3>CSS</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-js skill-icon" style="color: #F7DF1E;"></i>
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-php skill-icon" style="color: #777BB4;"></i>
+                    <h3>PHP</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-database skill-icon" style="color: #336791;"></i>
+                    <h3>SQL & Databases</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-figma skill-icon" style="color: #F24E1E;"></i>
+                    <h3>UI/UX Design</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="image4.png"
+                            alt="Project 1">
+                        <div class="project-overlay">
+                            <!-- <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                            <a href="#" class="project-link"><i class="fa-brands fa-github"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Secure Digital Voting System using ML </h3>
+                        <p>Developed a secure e-voting platform that authenticates voters using face recognition and ensures 
+reliable, fraud-free digital voting. </p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="image5.png"
+                            alt="Project 2">
+                        <div class="project-overlay">
+                            <!-- <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                            <a href="#" class="project-link"><i class="fa-brands fa-github"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>BookMyTurf </h3>
+                        <p>Web-based platform enabling users to search and book sports grounds with real-time availability.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS Grid</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop"
+                            alt="Project 3">
+                        <div class="project-overlay">
+                            <!-- <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                            <a href="#" class="project-link"><i class="fa-brands fa-github"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Template</h3>
+                        <p>A customizable, responsive portfolio template designed for creative professionals.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+        <div class="container resume-container">
+            <h1>My Resume</h1>
+            <p>Get a detailed overview of my professional experience, education, and skills.</p>
+            <a href="parth_resume.pdf" download class="btn btn-primary btn-large">
+                <i class="fa-solid fa-download"></i> Download Resume (PDF)
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Let's talk about your next project!</h3>
+                    <p>Feel free to reach out for collaborations or just a friendly hello. I am currently open to new
+                        opportunities.</p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>parthpatoliya406@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>7434068383</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Surat, Gujarat</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">Send Message <i
+                                class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>Parth Patoliya.</h3>
+                <p>Building the web, one pixel at a time.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Parth Patoliya. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
